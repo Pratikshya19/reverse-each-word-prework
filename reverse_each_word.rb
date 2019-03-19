@@ -1,7 +1,7 @@
 def reverse_each_word(string)
-  
-reverse_string == string.split.each {|words| words.reverse}.join(" ")
- 
+new_count = " "  
+string.split.each {|words| words.reverse}.join(" ")
+ new_count << words
  end
-reverse_string
+new_count
 end
